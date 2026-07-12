@@ -1,3 +1,5 @@
+> **ABSORBED into the plurnk platform monorepo** — code, history, and issues now live in [`plurnk/plurnk-service`](https://github.com/plurnk/plurnk-service) under `plurnk-execs-common/`. This repo is an archived snapshot.
+
 # @plurnk/plurnk-execs-common
 
 The **universal subprocess executor** for [plurnk-service](https://github.com/plurnk/plurnk-service)'s `exec` scheme: one package covering the shell + node + python floor *and* whichever host interpreters (`perl`/`ruby`/`php`/`lua`/`awk`/`bc`/…) are present. Install it once and the model gets every subprocess runtime the host can serve — `node` always, the rest detected.
